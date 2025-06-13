@@ -1,8 +1,8 @@
 package token
 
 const (
-	ILLEGAL = "ILLEGAL"
-	EOF     = "EOF"
+	ILLEGAL = "ILLEGAL" // トークンや文字列が未知であることを表す
+	EOF     = "EOF"     // ファイルの終端
 
 	// 識別子 + リテラル
 	IDENT = "IDENT" // add, foobar, x, y
